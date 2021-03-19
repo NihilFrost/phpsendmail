@@ -9,11 +9,11 @@ require 'phpmailer/Exception.php';
 if (isset($_POST['name']))
     $name = $_POST['name'];
 else
-    $name = 'Гордон';
+    $name = '';
 if (isset($_POST['email']))
     $email = $_POST['email'];
 else
-    $email = 'support@vk.com';
+    $email = '';
 if (isset($_POST['message']))
     $message = $_POST['message'];
 else

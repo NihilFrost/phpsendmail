@@ -33,8 +33,7 @@ $body = "
 <h2>Новое письмо</h2>
 <b>Имя:</b> $name<br>
 <b>Почта:</b> $email<br><br>
-<b>Сообщение:</b><br>$message
-";
+<b>Сообщение:</b><br>$message";
 
 // Настройки PHPMailer
 $mail = new PHPMailer\PHPMailer\PHPMailer();

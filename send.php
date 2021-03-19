@@ -27,7 +27,6 @@ if (isset($_POST['file'])) {
 if ((!isset($_POST['name'])) && (!isset($_POST['email'])) && (!isset($_POST['message']))) 
 	die("Входные данные пусты. Скрипт завершается.");
 
-
 // Формирование самого письма
 $title = "Заголовок письма";
 $body = "
